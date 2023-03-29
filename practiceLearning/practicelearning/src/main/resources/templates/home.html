@@ -1,0 +1,12 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<meta>
+		<title>Vinay Spring Boot Example</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+	</head>
+	<body>
+		<form action="/backToWelcome" method="post">
+			<p th:text="'Version: ' + ${version}" />
+			<input type="submit" value="Back to Welcome Screen"/>
+		</form>
+	</body>
+</html>
